@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="teclado icon" href="teclado.ico" type="image/x-icon">
+    <link rel="icon" href="teclado.ico" type="image/x-icon">
     <title>Prova de Digitação</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,15 +11,18 @@
     <div class="container">
         <main>
             <h1>Prova de Digitação</h1>
+            <div class="button-group">
+                <button class="text-button" data-text="text1">Portuguesa de Desportos</button>
+                <button class="text-button" data-text="text2">Fios de cabelo</button>
+                <button class="text-button" data-text="text3">Curiosidades sobre o Brasil</button>
+                <button class="text-button" data-text="text4">História do futebol</button>
+            </div>
             <p id="text-to-type">
-                A Associação Portuguesa de Desportos é uma sociedade civil, sem fins lucrativos caracterizando-se como entidade esportiva, social, recreativa, assistencial, educacional e filantrópica.
-                A ideia de uma unidade associativa de colônia lisutana vinha sendo alimentada desde de 1913 e finalmente consumou-se a 14 de agosto de 1920, em uma noite memorável, nunca reunião histórica no Salão da Câmara Portuguesa de Comercio, com a fusão de cinco clubes representantes da colônia portuguesa: Lusíada, Portugal Marinhense, Cinco de Outubro, Marques de Pombal e Lusitano.
-                Nessa mesma data, no século XIV, Portugal derrotou a Espanha na Batalha de Aljubarrota, marcando o primeiro passo para se desligar do Reino de Castela. A primeira diretoria, da então chamada Associação Portuguesa de Esportes, foi presidida pelo farmacêutico Eugenio Augusto Torres Lima. No ano de 1940, foi então assinada a Certidão de Nascimento da Associação Portuguesa de Desportos, devido ao diversificado número de esportes complementados com várias atividades de lazer.
-                Foram escolhidas para o Clube, as cores verde e vermelho que remetem às cores da bandeira de Portugal. O escudo português, em fundo branco, foi o primeiro distintivo adotado pela Portuguesa, em uma reunião realizada da camisa de time havia sido substituído pela Cruz de Avis. A Cruz de Avis significa a glória das Grandes Cruzadas e com ela a idade de ouro de Portugal. 
+                <!-- O texto será inserido aqui pelo JavaScript -->
             </p>
             <textarea id="input-area" placeholder="Digite o texto acima..."></textarea>
             <div class="results">
-                <p>Tempo: <span id="time-taken">0.00</span> segundos</p>
+                <p>Tempo: <span id="time-taken">0.00</span> minutos</p>
                 <button id="restart-test-button">Reiniciar Teste</button>
                 <button id="end-test-button">Encerrar Teste</button>
             </div>
